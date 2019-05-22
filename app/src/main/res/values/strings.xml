@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">AlbumPhoto</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab_map">Map</string>
+
+    <string name="settings">Options</string>
+
+    <string name="pref_grid_title">Thay đổi số cột album</string>
+    <string name="gridsum"></string>
+    <string name="pref_grid" translatable="false">pref_grid</string>
+    <string name="pref_grid_list" translatable="false">pref_grid_list</string>
+    <string name="two">2 columns</string>
+    <string name="three">3 columns</string>
+    <string name="four">4 columns</string>
+
+    <string name="pref_theme_title">Thay đổi màu sắc album </string>
+    <string name="themesum"></string>
+    <string name="pref_theme" translatable="false">pref_theme</string>
+    <string name="pref_theme_list" translatable="false">pref_theme_list</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="deepPurple">Deep purple</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blue</string>
+    <string name="lightBlue">Light blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Teal</string>
+    <string name="green">Green</string>
+    <string name="lightGreen">Light green</string>
+    <string name="lime">Lime</string>
+    <string name="yellow">Yellow</string>
+    <string name="amber">Amber</string>
+    <string name="orange">Orange</string>
+    <string name="deepOrange">Deep orange</string>
+    <string name="brown">Brown</string>
+    <string name="blueGrey">Blue grey</string>
+    <string name="red_dark">Red night</string>
+    <string name="pink_dark">Pink night</string>
+    <string name="purple_dark">Purple night</string>
+    <string name="deepPurple_dark">Deep purple night</string>
+    <string name="indigo_dark">Indigo night</string>
+    <string name="blue_dark">Blue night</string>
+    <string name="lightBlue_dark">Light blue night</string>
+    <string name="cyan_dark">Cyan night</string>
+    <string name="teal_dark">Teal night</string>
+    <string name="green_dark">Green night</string>
+    <string name="lightGreen_dark">Light green night</string>
+    <string name="lime_dark">Lime night</string>
+    <string name="yellow_dark">Yellow night</string>
+    <string name="amber_dark">Amber night</string>
+    <string name="orange_dark">Orange night</string>
+    <string name="deepOrange_dark">Deep orange night</string>
+    <string name="brown_dark">Brown night</string>
+    <string name="blueGrey_dark">Blue grey night</string>
+
+    <string name="notFound">File not found (╯°□°）╯︵ ┻━┻. I forgot the SD Card path!</string>
+    <string name="uSure">U sure? (Ծ‸ Ծ)</string>
+    <string name="uSureContent">U sure u want to delete&#160;</string>
+    <string name="questionMark">&#160;?</string>
+    <string name="delete">Delete</string>
+
+    <string name="sdcard">SD Card access</string>
+    <string name="sdcardContent">Your device is running Android 5.0+, to edit files on external SD Card please tell us the external SD Card path on the phone in the next step ᕙ༼ຈل͜ຈ༽ᕗ</string>
+    <string name="success">Successfully set SD Card path. Now you can delete files (⌐■_■)</string>
+    <string name="cameraContent">This permission is needed if You want to open camera ಠ_ಠ</string>
+    <string name="rationale_camera" translatable="false">(ಥ﹏ಥ)</string>
+    <string name="rationale_read" translatable="false">щ（ﾟДﾟщ)</string>
+    <string name="writeReadContent">This permission is needed if You want to see Your &amp;#$# selfie here ◔_◔</string>
+
+    <string name="saved">&#160;saved</string>
+    <string name="shareWith">Share using&#8230;</string>
+    <string name="size">Size:&#160;</string>
+    <string name="height">Height:&#160;</string>
+    <string name="width">Width:&#160;</string>
+    <string name="name">Filename:&#160;</string>
+    <string name="type">File type:&#160;</string>
+    <string name="path">Path:&#160;</string>
+    <string name="lastMod">Last modified:&#160;</string>
+    <string name="videoType">Video/</string>
+    <string name="imageType">Image/</string>
+    <string name="B" translatable="false">B</string>
+    <string name="KB" translatable="false">KB&#160;</string>
+    <string name="MB" translatable="false">MB&#160;</string>
+    <string name="GB" translatable="false">GB&#160;</string>
+    <string name="parenthesisR" translatable="false">)</string>
+    <string name="parenthesisL" translatable="false">&#160;(</string>
+    <string name="setAs">Set as wallpaper</string>
+    <string name="uSureHide">U sure? (ಥ_ʖಥ)</string>
+    <string name="uSureHideContent">U sure u want to hide&#160;</string>
+    <string name="hide">Hide</string>
+    <string name="hidden_title">Quản lý album ẩn</string>
+    <string name="hidden_sum"></string>
+    <string name="hidden_message">Click on folder below you want to make visible .</string>
+    <string name="saving_crop">Saving a crop may require time. Touch outside the dialog to dismiss, the work will be done in background</string>
+    <string name="applying_wallpaper">Applying a wallpaper may require time. Touch outside the dialog to dismiss, the work will be done in background</string>
+    <string name="deleting">Deleting&#8230;</string>
+</resources>

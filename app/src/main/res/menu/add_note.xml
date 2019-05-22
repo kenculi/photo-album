@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/camera_image"
+        android:icon="@drawable/camera"
+        android:title="Camera"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/attach_image"
+        android:icon="@drawable/attach"
+        android:title="Folder"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/save_note"
+        android:icon="@drawable/save"
+        android:title="Save"
+        app:showAsAction="always"></item>
+
+</menu>

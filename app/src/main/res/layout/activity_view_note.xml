@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ViewNoteActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:logo="@drawable/save"
+        android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_below="@id/my_toolbar"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTruoc"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+
+            android:layout_marginRight="10dp"
+            android:text="Trước" />
+
+        <ImageView
+            android:id="@+id/img_attach"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/my_toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/img_not_available"
+            android:visibility="visible"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/btnSau"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Sau" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tudong"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/button"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/chkTuDong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tự động chạy ảnh"
+            android:layout_marginLeft="110dp"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gv_img_view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/tudong"
+        android:layout_margin="5dp"
+        android:numColumns="3" />
+
+    <TextView
+        android:text="Nội dung nhật ký"
+        android:layout_margin="10dp"
+        android:id="@+id/tieude"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#ff0400"
+        android:layout_below="@+id/gv_img_view"/>
+
+    <TextView
+        android:id="@+id/lbl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tieude"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="New Text"
+        android:textSize="15sp" />
+
+</RelativeLayout>
